@@ -60,4 +60,4 @@ echo "Persistence configured. Data will be stored in /data/app-data"
 
 # 3. Run the Application
 # We run as root here (standard for HA simple addons), or you can switch user if strictly needed.
-exec /usr/lib/jvm/java-17-openjdk-amd64/bin/java -jar device.jar
+exec java -jar device.jar
